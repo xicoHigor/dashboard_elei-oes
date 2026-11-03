@@ -1,19 +1,15 @@
-# Eleições gerais 2026 — painel
+# Painel das Eleições Gerais de 2026
 
-Painel estático e interativo com resultados da Presidência, os 27 governadores eleitos, Senado e deputados, com fotos oficiais. Não requer instalação de dependências nem etapa de compilação.
+Painel interativo em HTML para consultar um resumo dos resultados das eleições gerais brasileiras de 2026. A página reúne informações sobre a Presidência, os governos estaduais e o DF, o Senado e as casas legislativas, além de uma linha do tempo.
 
-## Arquivo principal
+> **Retrato dos dados:** os resultados e informações exibidos correspondem à consulta de 02/11/2026. O painel é estático e não atualiza a apuração automaticamente. Consulte as fontes oficiais do TSE para conferir eventuais atualizações ou decisões posteriores.
 
-- `index.html` — versão final do painel, pronta para GitHub Pages.
-- `widget_eleicoes_2026_fragmento.html` — conteúdo para plataformas que aceitam HTML, CSS e JavaScript inline.
+## O que o painel apresenta
 
-## Como visualizar
-
-Abra `index.html` em um navegador. As fotos oficiais são carregadas dos servidores do TSE, então precisam de conexão com a internet. O restante do painel e os dados eleitorais estão embutidos no HTML.
-
-## Publicar com GitHub Pages
-
-Envie os arquivos desta pasta para a raiz de um repositório GitHub e configure o GitHub Pages para servir a raiz do branch escolhido. Como o arquivo inicial se chama `index.html`, não é necessário criar uma página de entrada adicional.
+- **Presidência:** resumo da votação e visualização dos resultados dos turnos.
+- **Governadores:** os 27 eleitos, com UF, partido, turno, percentual de votos e foto oficial.
+- **Legislativo:** 54 senadores, 513 deputados federais e 1.059 deputados estaduais e distritais, com busca por nome ou partido, filtro por UF, composição partidária e fotos ampliáveis.
+- **Linha do tempo:** datas e acontecimentos relacionados ao processo eleitoral.
 
 ## Dados e fontes
 
