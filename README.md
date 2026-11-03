@@ -1,11 +1,11 @@
 # Eleições gerais 2026 — painel
 
-Painel estático e interativo com resultados da Presidência, governos estaduais, Senado e deputados. Não requer instalação de dependências nem etapa de compilação.
+Painel estático e interativo com resultados da Presidência, os 27 governadores eleitos, Senado e deputados, com fotos oficiais. Não requer instalação de dependências nem etapa de compilação.
 
-## Arquivos
+## Arquivo principal
 
-- `index.html` — página principal, pronta para GitHub Pages.
-- `widget_eleicoes_2026_fragmento.html` — versão para incorporação em plataformas que permitem HTML, CSS e JavaScript inline.
+- `index.html` — versão final do painel, pronta para GitHub Pages.
+- `widget_eleicoes_2026_fragmento.html` — conteúdo para plataformas que aceitam HTML, CSS e JavaScript inline.
 
 ## Como visualizar
 
